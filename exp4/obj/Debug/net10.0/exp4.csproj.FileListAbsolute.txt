@@ -1,0 +1,14 @@
+D:\exp4\bin\Debug\net10.0\exp4.exe
+D:\exp4\bin\Debug\net10.0\exp4.deps.json
+D:\exp4\bin\Debug\net10.0\exp4.runtimeconfig.json
+D:\exp4\bin\Debug\net10.0\exp4.dll
+D:\exp4\bin\Debug\net10.0\exp4.pdb
+D:\exp4\obj\Debug\net10.0\exp4.GeneratedMSBuildEditorConfig.editorconfig
+D:\exp4\obj\Debug\net10.0\exp4.AssemblyInfoInputs.cache
+D:\exp4\obj\Debug\net10.0\exp4.AssemblyInfo.cs
+D:\exp4\obj\Debug\net10.0\exp4.csproj.CoreCompileInputs.cache
+D:\exp4\obj\Debug\net10.0\exp4.dll
+D:\exp4\obj\Debug\net10.0\refint\exp4.dll
+D:\exp4\obj\Debug\net10.0\exp4.pdb
+D:\exp4\obj\Debug\net10.0\exp4.genruntimeconfig.cache
+D:\exp4\obj\Debug\net10.0\ref\exp4.dll
