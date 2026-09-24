@@ -1,0 +1,14 @@
+D:\valida\bin\Debug\net10.0-windows\valida.exe
+D:\valida\bin\Debug\net10.0-windows\valida.deps.json
+D:\valida\bin\Debug\net10.0-windows\valida.runtimeconfig.json
+D:\valida\bin\Debug\net10.0-windows\valida.dll
+D:\valida\bin\Debug\net10.0-windows\valida.pdb
+D:\valida\obj\Debug\net10.0-windows\valida.GeneratedMSBuildEditorConfig.editorconfig
+D:\valida\obj\Debug\net10.0-windows\valida.AssemblyInfoInputs.cache
+D:\valida\obj\Debug\net10.0-windows\valida.AssemblyInfo.cs
+D:\valida\obj\Debug\net10.0-windows\valida.csproj.CoreCompileInputs.cache
+D:\valida\obj\Debug\net10.0-windows\valida.dll
+D:\valida\obj\Debug\net10.0-windows\refint\valida.dll
+D:\valida\obj\Debug\net10.0-windows\valida.pdb
+D:\valida\obj\Debug\net10.0-windows\valida.genruntimeconfig.cache
+D:\valida\obj\Debug\net10.0-windows\ref\valida.dll

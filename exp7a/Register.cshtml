@@ -1,0 +1,91 @@
+@page
+@model RegisterModel
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Mvc.RazorPages
+@using Microsoft.AspNetCore.Mvc
+
+@{
+    Layout = null; // Clean slate layout for single-file demo
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Validation Demo</title>
+    <!-- Add basic styling for errors -->
+    <style>
+        .form-group { margin-bottom: 15px; }
+        .text-danger { color: red; font-size: 14px; display: block; }
+    </style>
+</head>
+<body>
+
+    <h2>User Registration</h2>
+
+    <form method="post">
+        <!-- Display global summary of validation errors if needed -->
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Input.Email"></label><br />
+            <input asp-for="Input.Email" />
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Input.Age"></label><br />
+            <input asp-for="Input.Age" />
+            <span asp-validation-for="Input.Age" class="text-danger"></span>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <h3 style="color: green;">@TempData["SuccessMessage"]</h3>
+    }
+
+    <!-- Client-Side validation scripts (loads standard jQuery validation engine) -->
+    <script src="https://cloudflare.com"></script>
+    <script src="https://cloudflare.com"></script>
+    <script src="https://cloudflare.com"></script>
+
+</body>
+</html>
+
+@functions {
+    // BACKEND C# LOGIC LAYER INSIDE THE SAME FILE
+    public class RegisterModel : PageModel
+    {
+        [BindProperty]
+        public InputModel Input { get; set; }
+
+        public void OnGet() { }
+
+        public IActionResult OnPost()
+        {
+            // Server-side validation check
+            if (!ModelState.IsValid)
+            {
+                return Page(); // Returns immediately to show errors to user
+            }
+
+            // Runs only if all criteria are valid
+            TempData["SuccessMessage"] = "Web form successfully validated and processed!";
+            return Page();
+        }
+
+        // VALIDATION DATA ANNOTATIONS MODEL
+        public class InputModel
+        {
+            [Required(ErrorMessage = "Email is required.")]
+            [EmailAddress(ErrorMessage = "Please enter a valid email format.")]
+            public string Email { get; set; }
+
+            [Required(ErrorMessage = "Age is required.")]
+            [Range(18, 100, ErrorMessage = "Age must be between 18 and 100.")]
+            public int? Age { get; set; }
+        }
+    }
+}
