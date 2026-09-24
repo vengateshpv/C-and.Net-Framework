@@ -1,0 +1,4 @@
+C:\Users\THAMIZHE\OneDrive\Desktop\10th\obj\Debug\net10.0\10th.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THAMIZHE\OneDrive\Desktop\10th\obj\Debug\net10.0\10th.AssemblyInfoInputs.cache
+C:\Users\THAMIZHE\OneDrive\Desktop\10th\obj\Debug\net10.0\10th.AssemblyInfo.cs
+C:\Users\THAMIZHE\OneDrive\Desktop\10th\obj\Debug\net10.0\10th.csproj.CoreCompileInputs.cache
