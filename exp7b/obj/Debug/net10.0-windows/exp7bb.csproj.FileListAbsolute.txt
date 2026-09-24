@@ -1,0 +1,14 @@
+D:\exp7bb\bin\Debug\net10.0-windows\exp7bb.exe
+D:\exp7bb\bin\Debug\net10.0-windows\exp7bb.deps.json
+D:\exp7bb\bin\Debug\net10.0-windows\exp7bb.runtimeconfig.json
+D:\exp7bb\bin\Debug\net10.0-windows\exp7bb.dll
+D:\exp7bb\bin\Debug\net10.0-windows\exp7bb.pdb
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.GeneratedMSBuildEditorConfig.editorconfig
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.AssemblyInfoInputs.cache
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.AssemblyInfo.cs
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.csproj.CoreCompileInputs.cache
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.dll
+D:\exp7bb\obj\Debug\net10.0-windows\refint\exp7bb.dll
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.pdb
+D:\exp7bb\obj\Debug\net10.0-windows\exp7bb.genruntimeconfig.cache
+D:\exp7bb\obj\Debug\net10.0-windows\ref\exp7bb.dll
