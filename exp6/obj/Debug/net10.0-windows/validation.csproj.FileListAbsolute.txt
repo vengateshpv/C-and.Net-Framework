@@ -1,0 +1,14 @@
+D:\c# exper\validation\bin\Debug\net10.0-windows\validation.exe
+D:\c# exper\validation\bin\Debug\net10.0-windows\validation.deps.json
+D:\c# exper\validation\bin\Debug\net10.0-windows\validation.runtimeconfig.json
+D:\c# exper\validation\bin\Debug\net10.0-windows\validation.dll
+D:\c# exper\validation\bin\Debug\net10.0-windows\validation.pdb
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.GeneratedMSBuildEditorConfig.editorconfig
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.AssemblyInfoInputs.cache
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.AssemblyInfo.cs
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.csproj.CoreCompileInputs.cache
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.dll
+D:\c# exper\validation\obj\Debug\net10.0-windows\refint\validation.dll
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.pdb
+D:\c# exper\validation\obj\Debug\net10.0-windows\validation.genruntimeconfig.cache
+D:\c# exper\validation\obj\Debug\net10.0-windows\ref\validation.dll
